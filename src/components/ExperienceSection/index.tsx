@@ -121,7 +121,7 @@ function ExperienceSection() {
             <div
               className="py-4 lg:px-16 px-8 relative"
               key={experience.id}
-              ref={(el) => (timeLineRefs.current[experience.id] = el)}
+              ref={(el: HTMLDivElement | null) => { timeLineRefs.current[experience.id] = el; }}
             >
               <div
                 className={classNames(

@@ -3844,6 +3844,20 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/vemana/Desktop/Vemana_AnilKumar_Portfolio/src/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/vemana/Desktop/Vemana_AnilKumar_Portfolio/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Rubik\",\"arguments\":[{\"weight\":[\"300\",\"400\",\"500\",\"600\",\"700\"],\"style\":[\"normal\"],\"subsets\":[\"latin\"]}],\"variableName\":\"montserrat\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/Users/vemana/Desktop/Vemana_AnilKumar_Portfolio/public/icons/RAG.svg": {
       "id": "(app-client)/./public/icons/RAG.svg",
       "name": "*",
@@ -5267,20 +5281,6 @@ self.__RSC_MANIFEST={
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "/Users/vemana/Desktop/Vemana_AnilKumar_Portfolio/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/vemana/Desktop/Vemana_AnilKumar_Portfolio/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Rubik\",\"arguments\":[{\"weight\":[\"300\",\"400\",\"500\",\"600\",\"700\"],\"style\":[\"normal\"],\"subsets\":[\"latin\"]}],\"variableName\":\"montserrat\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
     }
   }
 }
