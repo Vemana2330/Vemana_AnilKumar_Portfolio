@@ -96,8 +96,8 @@ const ProjectsSection = () => {
   const [selectedProjects, setSelectedProjects] = useState(mainProjects);
   const [displayedProjects, setDisplayedProjects] = useState(PER_PAGE_PROJECTS);
 
-  const projectRefs = useRef({});
-  const projectObserverRefs = useRef({});
+  const projectRefs = useRef<Record<string, HTMLDivElement | null>>({});
+  const projectObserverRefs = useRef<Record<string, IntersectionObserver | null>>({});
 
   useEffect(() => {
     selectedProjects.forEach((project) => {
@@ -105,7 +105,7 @@ const ProjectsSection = () => {
 
       if (!projectRef) return;
 
-      const obsCallBack = function (entries) {
+      const obsCallBack = function (entries : IntersectionObserverEntry[]) {
         const [entry] = entries;
 
         if (!entry.isIntersecting) {
@@ -153,7 +153,7 @@ const ProjectsSection = () => {
           {selectedProjects.slice(0, displayedProjects).map((project) => (
             <div
               key={project.id}
-              ref={(el) => (projectRefs.current[project.id] = el)}
+              ref={(el: HTMLDivElement | null) => { projectRefs.current[project.id] = el; }}
               className="md:p-6 p-4 bg-backgroundColor-card-day dark:bg-backgroundColor-card-night w-full rounded-md opacity-0 translate-y-[5%] transition-all duration-500 ease-linear"
             >
               <div className="w-full h-[200px] sm:h-[240px] rounded-md relative mb-4 overflow-hidden">
@@ -168,9 +168,7 @@ const ProjectsSection = () => {
                   <a href={project.githubLink} target="_blank">
                     <GithubLogo className="h-9 w-9" />
                   </a>
-                  {project.webLink && <a href={project.webLink} target="_blank">
-                    <GlobeIcon className="h-9 w-9" />
-                  </a>}
+                  
                 </div>
                   </div>
                 <AppText textTag="p" default secondary>

@@ -1044,32 +1044,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./public/icons/globe-icon.svg": {
-      "*": {
-        "id": "(sc_client)/./public/icons/globe-icon.svg",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./public/icons/globe-icon.svg",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/icons/globe-icon.svg",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./public/icons/hadoop-logo.svg": {
       "*": {
         "id": "(sc_client)/./public/icons/hadoop-logo.svg",
@@ -4128,30 +4102,6 @@ self.__RSC_MANIFEST={
     },
     "/Users/vemana/Desktop/Vemana_AnilKumar_Portfolio/public/icons/github-logo.svg#default": {
       "id": "(app-client)/./public/icons/github-logo.svg",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/vemana/Desktop/Vemana_AnilKumar_Portfolio/public/icons/globe-icon.svg": {
-      "id": "(app-client)/./public/icons/globe-icon.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/vemana/Desktop/Vemana_AnilKumar_Portfolio/public/icons/globe-icon.svg#": {
-      "id": "(app-client)/./public/icons/globe-icon.svg",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/vemana/Desktop/Vemana_AnilKumar_Portfolio/public/icons/globe-icon.svg#default": {
-      "id": "(app-client)/./public/icons/globe-icon.svg",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
