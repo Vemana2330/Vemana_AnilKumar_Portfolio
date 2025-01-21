@@ -69,7 +69,9 @@ function EducationSection() {
           return (
               <div
                 className="group rounded-md bg-backgroundColor-card-day dark:bg-backgroundColor-card-night sm:p-6 p-3 border-2 border-borderColor opacity-0 transition-opacity duration-1000 ease-linear"
-                ref={(el) => (cardRefs.current[education.id] = el)}
+                ref={(el) => {
+                  cardRefs.current[education.id] = el;
+                }}
                 key={education.id}
               >
                 <a href={education.url} target="_blank">
