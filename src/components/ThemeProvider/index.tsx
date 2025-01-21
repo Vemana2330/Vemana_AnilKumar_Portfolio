@@ -16,7 +16,7 @@ export const ThemeContext = createContext<IThemeContext>({
   setTheme: () => null,
 });
 
-export default function ThemeProvider(props: PropsWithChildren): JSX.Element {
+export default function ThemeProvider(props: PropsWithChildren): React.JSX.Element {
   const [theme, setTheme] = useState<TTheme>(DARK_THEME);
 
   useEffect(() => {

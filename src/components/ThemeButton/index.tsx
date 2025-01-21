@@ -8,7 +8,7 @@ import { ThemeContext } from "../ThemeProvider";
 import { setLocalStorageItem } from "@/utils/localStorage";
 import { USER_THEME_PREFERENCE } from "@/constants/theme";
 
-function ThemeButton(): JSX.Element {
+function ThemeButton(): React.JSX.Element {
   const { theme, setTheme } = useContext(ThemeContext);
 
   const themeBtnRef = useRef<HTMLDivElement | null>(null);
