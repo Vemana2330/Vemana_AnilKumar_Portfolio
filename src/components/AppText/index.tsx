@@ -2,7 +2,7 @@ import React, { JSX } from "react";
 import classNames from "classnames";
 import IAppTextProps from "./types";
 
-function AppText(props: IAppTextProps): JSX.Element {
+function AppText(props: IAppTextProps): React.JSX.Element {
   const TextTag = props.textTag;
   return (
     <TextTag

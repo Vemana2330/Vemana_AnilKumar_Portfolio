@@ -25,7 +25,7 @@ const contactInfoArr = [
 
 ];
 
-function ContactLogos(): JSX.Element {
+function ContactLogos(): React.JSX.Element {
   return (
     <div className="flex items-center justify-start gap-4">
       {contactInfoArr.map((contactInfo) => {
